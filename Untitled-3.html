@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>http://www.bilisimogretmeni.com/</title>
+    <script type="text/javascript">
+        function kare() {
+            var deger = parseInt(document.getElementById('sayi').value);
+           document.getElementById('sayi').value = deger*deger;
+       }
+       function küp() {
+		   var deger = parseInt(document.getElementById('sayi').value);
+           document.getElementById('sayi').value = deger*deger*deger;
+       }
+       function fonksiyon() {
+           var deger = parseInt(document.getElementById('sayi').value)
+           document.getElementById('sayi').value = deger
+       }
+    </script>
+</head>
+<body>
+<input type="text" id="sayi" value="0" /><br />
+<input type="button" value="kare" id="kare"  onclick="kare()"/> 
+<input type="button" value="küp" id="küp" onclick="küp()" />
+<input type="button" value="faktor" id="faktor"  onclick="faktor()"/>
+</body>
+</html>
+
